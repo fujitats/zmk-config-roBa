@@ -81,9 +81,9 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R                        &kp T                                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F                        &kp G                   &kp LS(LG(S))                      &kp MINUS              &kp H        &kp J  &kp K      &kp L    &kp SQT
+&kp A             &kp S         &kp D         &kp F                        &kp G                   &kp LS(LG(S))                      &kp MINUS              &kp H        &kp J  &kp K      &kp L    &lt 4 APOSTROPHE
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B                   &kp LEFT_PARENTHESIS               &kp RIGHT_PARENTHESIS  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &kp BACKSPACE          &lt 4 ENTER                             &mt RIGHT_SHIFT NON_US_BACKSLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &kp BACKSPACE          &lt 2 ENTER                             &mt RIGHT_SHIFT NON_US_BACKSLASH
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -100,10 +100,10 @@
 
         NUM {
             bindings = <
-&trans  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                                                     &trans             &trans  &trans  &kp MINUS          &kp EQUAL
-&trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACE    &trans                &trans             &kp RIGHT_BRACE    &trans  &trans  &kp RIGHT_BRACKET  &kp BACKSLASH
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &kp SEMI           &kp GRAVE
-&trans  &kp NUMBER_0  &trans        &trans        &trans            &trans                &trans             &trans                                                &trans
+&kp ESC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                                                     &trans             &trans  &trans  &kp MINUS          &kp EQUAL
+&trans   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACE    &trans                &trans             &kp RIGHT_BRACE    &trans  &trans  &kp RIGHT_BRACKET  &kp BACKSLASH
+&trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &kp SEMI           &kp GRAVE
+&trans   &kp NUMBER_0  &trans        &trans        &trans            &trans                &trans             &trans                                                &trans
             >;
         };
 
