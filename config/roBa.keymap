@@ -54,6 +54,11 @@
             bindings = <&to 6>;
             key-positions = <37 38>;
         };
+
+        Escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+        };
     };
 
     macros {
@@ -81,13 +86,13 @@
 
         default_layer {
             bindings = <
-&kp Q               &kp W         &kp E         &kp R                        &kp T                                                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
-&mt LEFT_SHIFT A    &kp S         &kp D         &kp F                        &kp G                   &kp LS(LG(S))                      &kp MINUS              &kp H        &kp J  &kp K      &kp L    &lt 4 APOSTROPHE
-&mt LEFT_CONTROL Z  &kp X         &kp C         &kp V                        &kp B                   &kp LEFT_PARENTHESIS               &kp RIGHT_PARENTHESIS  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL           &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &lt_to_layer_0 4 SPACE  &lt_to_layer_0 2 INT_MUHENKAN      &kp BACKSPACE          &lt 2 ENTER                             &mt RIGHT_SHIFT NON_US_BACKSLASH
+&kp Q             &kp W         &kp E         &kp R                        &kp T                                                                         &kp Y        &kp U  &lt 5 I    &kp O    &lt 5 P
+&mt LEFT_SHIFT A  &kp S         &kp D         &kp F                        &kp G                   &kp LEFT_ALT                       &kp MINUS          &kp H        &kp J  &kp K      &kp L    &lt 4 SEMICOLON
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V                        &kp B                   &kp LEFT_BRACKET                   &kp RIGHT_BRACKET  &kp N        &kp M  &kp COMMA  &kp DOT  &mt RIGHT_SHIFT SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT_HENKAN  &lt_to_layer_0 2 SPACE  &lt_to_layer_0 1 INT_MUHENKAN      &kp BACKSPACE      &lt 2 ENTER                             &mt RIGHT_CONTROL LS(LG(S))
             >;
 
-            sensor-bindings = <&inc_dec_kp LA(LS(ESCAPE)) LA(ESCAPE)>;
+            sensor-bindings = <&inc_dec_kp LS(TAB) TAB>;
         };
 
         FUNCTION {
@@ -101,10 +106,10 @@
 
         NUM {
             bindings = <
-&kp ESC  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                                                     &trans             &trans  &trans  &kp MINUS          &kp EQUAL
-&trans   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp LEFT_BRACE    &trans                &trans             &kp RIGHT_BRACE    &trans  &trans  &kp RIGHT_BRACKET  &kp BACKSLASH
-&trans   &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT_BRACKET  &kp LEFT_BRACKET      &kp RIGHT_BRACKET  &kp RIGHT_BRACKET  &trans  &trans  &kp SEMI           &kp GRAVE
-&trans   &kp NUMBER_0  &trans        &trans        &trans            &trans                &trans             &trans                                                &trans
+&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                          &kp NUMBER_6       &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0
+&kp GRAVE     &trans        &trans        &trans        &kp LEFT_BRACE    &trans      &trans  &kp RIGHT_BRACE    &trans        &kp MINUS     &kp EQUAL      &kp BACKSLASH
+&trans        &trans        &trans        &trans        &kp LEFT_BRACKET  &trans      &trans  &kp RIGHT_BRACKET  &trans        &trans        &kp SEMICOLON  &kp SINGLE_QUOTE
+&trans        &trans        &trans        &trans        &trans            &trans      &trans  &trans                                                        &trans
             >;
         };
 
