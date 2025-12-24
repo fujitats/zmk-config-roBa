@@ -64,6 +64,11 @@
             bindings = <&kp LC(Z)>;
             key-positions = <34 22>;
         };
+
+        redo {
+            bindings = <&kp LS(LC(Z))>;
+            key-positions = <34 22 10>;
+        };
     };
 
     macros {
