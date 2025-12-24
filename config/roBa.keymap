@@ -59,6 +59,11 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <34 22>;
+        };
     };
 
     macros {
