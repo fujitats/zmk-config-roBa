@@ -142,10 +142,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5                              &kp NUMBER_6           &kp NUMBER_7       &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0
-&kp GRAVE     &trans        &trans        &kp LEFT_BRACE    &kp LEFT_PARENTHESIS  &trans      &trans  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE    &kp MINUS     &kp EQUAL      &kp BACKSLASH
-&trans        &trans        &trans        &kp LEFT_BRACKET  &kp LEFT_BRACKET      &trans      &trans  &kp RIGHT_BRACKET      &kp RIGHT_BRACKET  &trans        &kp SEMICOLON  &mt RIGHT_SHIFT SINGLE_QUOTE
-&trans        &trans        &trans        &trans            &trans                &trans      &trans  &trans                                                                 &trans
+&kp ESCAPE  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans                                 &trans                &trans  &kp MINUS         &kp EQUAL  &kp NUMBER_0
+&kp GRAVE   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp ASTERISK       &trans      &trans  &kp LEFT_PARENTHESIS  &trans  &kp LEFT_BRACKET  &kp SEMI   &kp SINGLE_QUOTE
+&trans      &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp RIGHT_BRACKET  &trans      &trans  &kp BACKSLASH         &trans  &trans            &trans     &trans
+&trans      &kp NUMBER_0  &trans        &trans        &trans             &trans      &trans  &trans                                                     &trans
             >;
         };
 
